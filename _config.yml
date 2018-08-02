@@ -1,28 +1,25 @@
 # Site settings
-title: "Sotirios Roussis"
-person_name: Sotirios M. Roussis
-person_nickname: xtonousou
-email: "xtonousou@gmail.com"
-description: "IT Specialist"
-key: "pubkey.gpg"
-cv: "cv.pdf"
+title: "Ashish Nitin Patil"
+person_name: Ashish Nitin Patil
+person_nickname: "!mmorta!"
+email: "ashishnitinpatil@gmail.com"
+description: "Engineer | Pythonista | DotA 2 fanatic"
+cv: "Resume - Ashish Patil.pdf"
 baseurl: "" # the subpath of your site, e.g. /blog/
-hostname: xtonousou.github.io # used to determine if google analytics should be triggered
-url: https://xtonousou.github.io # the base hostname & protocol for your site
+hostname: ashishnitinpatil.github.io # used to determine if google analytics should be triggered
+url: https://ashishnitinpatil.github.io # the base hostname & protocol for your site
 permalink: /:title/
 exclude: [vendor] # avoid irritating errors
 
 #vcard_url: url_here
-facebook_username: xtonousou
-twitter_username: xtonousou
-github_username: xtonousou
+instagram_username: ashishnitinpatil
+facebook_username: ashishnitinpatil
+twitter_username: shad0w_wa1k3r
+github_username: ashishnitinpatil
 stackoverflow:
-  id: 4946732
-  username: xtonousou
-spotify_username: xtonousou
-#youtube_username: TheToNouSou96
-deviantart_username: xtonousou
-linkedin_username: xtonousou
+  id: 2689986
+  username: shad0w_wa1k3r
+linkedin_username: ashishnitinpatil
 
 
 # Build settings

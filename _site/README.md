@@ -1,6 +1,9 @@
-# xtonousou.github.io
+# ashishnitinpatil.github.io
 
-This is a personal website: [xtonousou.github.io](https://xtonousou.github.io/)
+This is a personal website: [ashishnitinpatil.github.io](https://ashishnitinpatil.github.io/)
 
-##### Credit
-@jimeh
+## Credits
+@jimeh @xtonousou
+
+## License
+Kindly contact the generous [original project owner](https://xtonousou.github.io/)
