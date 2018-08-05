@@ -56,20 +56,23 @@
     color: $sub-title-color;
     text-transform: uppercase;
     position: absolute;
-    top: 49px;
-    left: 5px;
+    top: 50px;
+    left: 0;
   }
 }
 
 .site-links {
   font-size: 22px;
-  padding: 2px 0px 0px 6px;
+  padding: 2px 0 0 0;
 
   a {
     float: left;
     color: $link-color;
     position: relative;
     padding: 0px 7px;
+    &:first-child {
+        padding: 0 7px 0 2px;
+    }
     white-space: nowrap;
 
     .link-text {

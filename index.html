@@ -13,8 +13,8 @@ layout: default
     <span class="content">
       <span class="site-title">
         <span class="site-name">{{ site.person_name }}</span>
-        <span class="site-nickname">({{ site.person_nickname }})</span>
-        <span class="site-description">{{ site.description }}</span>
+        <span class="site-nickname">{{ site.person_nickname }}</span>
+        <span class="site-description"><nobr>{{ site.description }}</nobr></span>
       </span>
       <div class="site-links">
         <a target="_blank" href="{{ site.cv }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'cv', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">resume</span></a>

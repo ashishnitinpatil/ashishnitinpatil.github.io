@@ -183,18 +183,20 @@ pre {
     color: #a6a6a6;
     text-transform: uppercase;
     position: absolute;
-    top: 49px;
-    left: 5px; }
+    top: 50px;
+    left: 0; }
 
 .site-links {
   font-size: 22px;
-  padding: 2px 0px 0px 6px; }
+  padding: 2px 0 0 0; }
   .site-links a {
     float: left;
     color: silver;
     position: relative;
     padding: 0px 7px;
     white-space: nowrap; }
+    .site-links a:first-child {
+      padding: 0 7px 0 2px; }
     .site-links a .link-text {
       visibility: hidden;
       font-size: 14px;
