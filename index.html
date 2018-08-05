@@ -38,4 +38,22 @@ layout: default
     </span>
   </div>
   <div id="particles-js"></div>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "{{ site.person_name }}",
+      "description": "{{ site.description }}",
+      "sameAs": [
+        "https://stackoverflow.com/users/{{ site.stackoverflow.id }}/{{ site.stackoverflow.username }}",
+        "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
+        "https://github.com/{{ site.github_username }}",
+        "https://twitter.com/{{ site.twitter_username }}",
+        "https://instagram.com/{{ site.instagram_username }}",
+        "https://facebook.com/{{ site.facebook_username }}"
+      ],
+      "email": "{{ site.email }}",
+      "image": "{{ "img/me.jpeg" | prepend: site.baseurl }}"
+    }
+  </script>
 </header>
