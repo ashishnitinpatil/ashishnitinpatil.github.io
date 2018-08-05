@@ -1,7 +1,10 @@
 # Site settings
-title: "Ashish Nitin Patil"
-person_name: Ashish Nitin Patil
+title: "Ashish Nitin Patil's personal website"
+person_full_name: "Ashish Nitin Patil"
+person_first_name: Ashish
+person_last_name: Patil
 person_nickname: "!mmorta!"
+person_gender: male
 email: "ashishnitinpatil@gmail.com"
 description: "Engineer | Pythonista | DotA 2 fanatic"
 cv: "Resume - Ashish Patil.pdf"

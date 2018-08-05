@@ -12,7 +12,7 @@ layout: default
     <img class="site-avatar" src="{{ "img/me.jpeg" | prepend: site.baseurl }}">
     <span class="content">
       <span class="site-title">
-        <span class="site-name">{{ site.person_name }}</span>
+        <span class="site-name">{{ site.person_full_name }}</span>
         <span class="site-nickname">{{ site.person_nickname }}</span>
         <span class="site-description"><nobr>{{ site.description }}</nobr></span>
       </span>
@@ -42,7 +42,7 @@ layout: default
     {
       "@context": "http://schema.org",
       "@type": "Person",
-      "name": "{{ site.person_name }}",
+      "name": "{{ site.person_full_name }}",
       "description": "{{ site.description }}",
       "sameAs": [
         "https://stackoverflow.com/users/{{ site.stackoverflow.id }}/{{ site.stackoverflow.username }}",
@@ -53,7 +53,8 @@ layout: default
         "https://facebook.com/{{ site.facebook_username }}"
       ],
       "email": "{{ site.email }}",
-      "image": "{{ "img/me.jpeg" | prepend: site.baseurl }}"
+      "image": "{{ "img/me.jpeg" | prepend: site.baseurl }}",
+      "url": "{{ site.url }}"
     }
   </script>
 </header>

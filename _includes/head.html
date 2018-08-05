@@ -5,8 +5,18 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <meta name="description" content="{{ site.title }} - {{ site.description }}">
+  <meta name="description" content="{{ site.person_full_name }} - {{ site.description }}">
   <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:site_name" content="{{ site.person_full_name }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:image" content="{{ "img/me.jpeg" | prepend: site.baseurl }}">
+  <meta property="profile:first_name" content="{{ site.person_first_name }}">
+  <meta property="profile:last_name" content="{{ site.person_last_name }}">
+  <meta property="profile:gender" content="{{ site.person_gender }}">
+  <meta property="profile:username" content="{{ site.facebook_username }}">
 </head>
