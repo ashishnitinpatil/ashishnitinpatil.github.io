@@ -17,27 +17,27 @@ layout: default
         <span class="site-description"><nobr>{{ site.description }}</nobr></span>
       </span>
       <div class="site-links">
-        <a target="_blank" href="{{ site.cv }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'cv', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">resume</span></a>
+        <a target="_blank" href="{{ site.cv }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'cv', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">Résumé</span></a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" onclick="_gaq.push(['_trackEvent', 'linkTo', 'linkedin', this.href]);"><i class="fa fa-linkedin"></i><span class="link-text">linkedin</span></a>
+        <a target="_blank" href="mailto:{{ site.email }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'email', this.href]);"><i class="fa fa-envelope"></i><span class="link-text">Email</span></a>
 
-        <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow.id }}/{{ site.stackoverflow.username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'stackoverflow', this.href]);"><i class="fa fa-stack-overflow"></i><span class="link-text">stackoverflow</span></a>
+        <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" onclick="_gaq.push(['_trackEvent', 'linkTo', 'linkedin', this.href]);"><i class="fa fa-linkedin"></i><span class="link-text">LinkedIn</span></a>
 
-        <a target="_blank" href="https://github.com/{{ site.github_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'github', this.href]);"><i class="fa fa-github"></i><span class="link-text">github</span></a>
+        <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow.id }}/{{ site.stackoverflow.username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'stackoverflow', this.href]);"><i class="fa fa-stack-overflow"></i><span class="link-text">Stack Overflow</span></a>
 
-        <a target="_blank" href="mailto:{{ site.email }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'email', this.href]);"><i class="fa fa-envelope"></i><span class="link-text">email</span></a>
+        <a target="_blank" href="https://github.com/{{ site.github_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'github', this.href]);"><i class="fa fa-github"></i><span class="link-text">Github</span></a>
 
-        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'twitter', this.href]);"><i class="fa fa-twitter"></i><span class="link-text">twitter</span></a>
+        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'twitter', this.href]);"><i class="fa fa-twitter"></i><span class="link-text">Twitter</span></a>
 
-        <a target="_blank" href="https://instagram.com/{{ site.instagram_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'instagram', this.href]);"><i class="fa fa-instagram"></i><span class="link-text">instagram</span></a>
+        <a target="_blank" href="https://instagram.com/{{ site.instagram_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'instagram', this.href]);"><i class="fa fa-instagram"></i><span class="link-text">Instagram</span></a>
 
-        <a target="_blank" href="https://facebook.com/{{ site.facebook_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'facebook', this.href]);"><i class="fa fa-facebook"></i><span class="link-text">facebook</span></a>
+        <a target="_blank" href="https://facebook.com/{{ site.facebook_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'facebook', this.href]);"><i class="fa fa-facebook"></i><span class="link-text">Facebook</span></a>
 
         <a target="_blank" href="https://www.dotabuff.com/players/{{ site.dota_id }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'dotabuff', this.href]);"><i class="fa fa-gamepad"></i><span class="link-text">DotA 2</span></a>
 
-        <a target="_blank" href="https://www.imdb.com/user/{{ site.imdb_id }}/ratings?sort=your_rating,desc&ratingFilter=0&mode=detail&ref_=undefined&lastPosition=0" onclick="_gaq.push(['_trackEvent', 'linkTo', 'imdb', this.href]);"><i class="fa fa-imdb"></i><span class="link-text">IMDB</span></a>
+        <a target="_blank" href="https://www.imdb.com/user/{{ site.imdb_id }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'imdb', this.href]);"><i class="fa fa-imdb"></i><span class="link-text">IMDB</span></a>
 
-        <a target="_blank" href="https://github.com/xtonousou/xtonousou.github.io" onclick="_gaq.push(['_trackEvent', 'linkTo', 'copyright', this.href]);"><i class="fa fa-copyright"></i><span class="link-text">copyright</span></a>
+        <a target="_blank" href="https://github.com/xtonousou/xtonousou.github.io" onclick="_gaq.push(['_trackEvent', 'linkTo', 'copyright', this.href]);"><i class="fa fa-copyright"></i><span class="link-text">Copyright</span></a>
       </div>
     </span>
   </div>
@@ -49,12 +49,14 @@ layout: default
       "name": "{{ site.person_full_name }}",
       "description": "{{ site.description }}",
       "sameAs": [
-        "https://stackoverflow.com/users/{{ site.stackoverflow.id }}/{{ site.stackoverflow.username }}",
         "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
+        "https://stackoverflow.com/users/{{ site.stackoverflow.id }}/{{ site.stackoverflow.username }}",
         "https://github.com/{{ site.github_username }}",
         "https://twitter.com/{{ site.twitter_username }}",
         "https://instagram.com/{{ site.instagram_username }}",
-        "https://facebook.com/{{ site.facebook_username }}"
+        "https://facebook.com/{{ site.facebook_username }}",
+        "https://www.dotabuff.com/players/{{ site.dota_id }}",
+        "https://www.imdb.com/user/{{ site.imdb_id }}"
       ],
       "email": "{{ site.email }}",
       "image": "{{ "img/me.jpeg" | prepend: site.baseurl }}",
