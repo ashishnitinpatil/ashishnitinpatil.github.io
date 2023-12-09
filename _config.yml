@@ -6,7 +6,7 @@ person_last_name: Patil
 person_nickname: "!mmorta!"
 person_gender: male
 email: "ashishnitinpatil@gmail.com"
-description: "Pythonista | Engineer | DotA 2 fanatic"
+description: "Father | Husband | Pythonista | Engineer | DotA 2 fanatic"
 cv: "Resume - Ashish Patil.pdf"
 baseurl: "" # the subpath of your site, e.g. /blog/
 hostname: ashishnitinpatil.github.io # used to determine if google analytics should be triggered

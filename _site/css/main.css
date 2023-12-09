@@ -253,7 +253,7 @@ pre {
     .site-title .site-description {
       font-size: 10px;
       top: 36px;
-      left: 5px; }
+      left: 2px; }
 
   .site-links {
     font-size: 16px; }
@@ -280,8 +280,7 @@ pre {
     font-size: 30px; }
     .site-title .site-description {
       font-size: 9px;
-      top: 32px;
-      left: 5px; }
+      top: 32px; }
 
   .site-links {
     font-size: 14px;
